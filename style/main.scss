@@ -1,0 +1,14 @@
+@import 'base/colors';
+@import 'base/typo';
+
+@import 'components/buttons';
+
+@import 'layout/footer';
+@import 'layout/navbar';
+
+@import 'pages/landing';
+
+body{
+    margin: 0;
+    padding: 0;
+}
