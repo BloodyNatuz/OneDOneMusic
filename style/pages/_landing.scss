@@ -1,0 +1,10 @@
+.description{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 3em;
+}
+@media screen and (max-device-width: 1200px){
+    .description{
+        width: 70%;
+    }
+}
