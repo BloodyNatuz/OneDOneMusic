@@ -10,7 +10,7 @@ let firstNavLink = document.createElement("a");
 firstNavLink.className = "nav-link";
 firstNavLink.href ="/";
 let imgLogo = document.createElement("img");
-imgLogo.src = "../img/odom-white.svg"
+imgLogo.src = "https://one-day-one-music.nathuz.fr/assets/odom-white-wpGiodzV.svg"
 
 let secondNavLink = document.createElement("a");
 secondNavLink.className = "nav-link";
