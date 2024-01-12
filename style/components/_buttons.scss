@@ -1,14 +1,14 @@
-.primary-btn{
-    font-family: 'sfprotext';
-    color: $primary-color;
-    background-color: $primary-color-verylowop;
-    backdrop-filter: blur(50px);
-    border: 1px solid $primary-color;
-    border-radius: 50px;
-    padding: 1em 2em;
-    transition: all .3s ease;
+.primary-btn {
+  font-family: "sfprotext";
+  color: $primary-color;
+  background-color: $primary-color-verylowop;
+  backdrop-filter: blur(50px);
+  border: 1px solid $primary-color;
+  border-radius: 50px;
+  padding: 1em 2em;
+  transition: all 0.3s ease;
 }
-.primary-btn:hover{
-    border: 1px solid $secondary-color;
-    color: $secondary-color;
+.primary-btn:hover {
+  border: 1px solid $secondary-color;
+  color: $secondary-color;
 }

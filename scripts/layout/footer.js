@@ -19,11 +19,12 @@ footer.appendChild(cFooter);
 let lFooterItem = document.createElement("p");
 lFooterItem.id = "copyright";
 lFooterItem.className = "footer-item";
-lFooterItem.textContent = "Copyright © 2024 nathuz.fr"
+lFooterItem.textContent = "Copyright © 2024 nathuz.fr";
 lFooter.appendChild(lFooterItem);
 
 // Création et importation des éléments de la partie centre
 let cFooterItem = document.createElement("p");
 cFooterItem.className = "footer-item";
-cFooterItem.textContent = "Animation de fond fait par Yoshiyuki ITO sur codepen.io";
+cFooterItem.textContent =
+  "Animation de fond fait par Yoshiyuki ITO sur codepen.io";
 cFooter.appendChild(cFooterItem);

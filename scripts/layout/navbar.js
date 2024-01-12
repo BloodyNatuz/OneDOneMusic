@@ -8,24 +8,24 @@ body.appendChild(navbar);
 // Création et importation des nav-links
 let firstNavLink = document.createElement("a");
 firstNavLink.className = "nav-link";
-firstNavLink.href ="/";
+firstNavLink.href = "/";
 let imgLogo = document.createElement("img");
-imgLogo.src = "https://one-day-one-music.nathuz.fr/assets/odom-white-wpGiodzV.svg"
+imgLogo.src ="https://one-day-one-music.nathuz.fr/assets/odom-white-wpGiodzV.svg";
 
 let secondNavLink = document.createElement("a");
 secondNavLink.className = "nav-link";
-secondNavLink.href ="/music/music.html";
+secondNavLink.href = "/music/music.html";
 secondNavLink.textContent = "Musique du jour";
 
 let thirdNavLink = document.createElement("a");
 thirdNavLink.className = "nav-link";
-thirdNavLink.href ="#";
+thirdNavLink.href = "#";
 thirdNavLink.textContent = "Historique";
 
 let fourthNavLink = document.createElement("a");
 fourthNavLink.className = "nav-link";
-fourthNavLink.href ="/contact/contact.html";
-fourthNavLink.textContent = "Contact"; 
+fourthNavLink.href = "/contact/contact.html";
+fourthNavLink.textContent = "Contact";
 
 navbar.appendChild(firstNavLink);
 firstNavLink.appendChild(imgLogo);
