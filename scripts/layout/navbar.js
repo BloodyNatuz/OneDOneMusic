@@ -25,7 +25,7 @@ thirdNavLink.textContent = "Historique";
 let fourthNavLink = document.createElement("a");
 fourthNavLink.className = "nav-link";
 fourthNavLink.href ="/contact/contact.html";
-fourthNavLink.textContent = "Contact";
+fourthNavLink.textContent = "Contact"; 
 
 navbar.appendChild(firstNavLink);
 firstNavLink.appendChild(imgLogo);
