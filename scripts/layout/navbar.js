@@ -14,7 +14,7 @@ imgLogo.src = "https://one-day-one-music.nathuz.fr/assets/odom-white-wpGiodzV.sv
 
 let secondNavLink = document.createElement("a");
 secondNavLink.className = "nav-link";
-secondNavLink.href ="#";
+secondNavLink.href ="/music/music.html";
 secondNavLink.textContent = "Musique du jour";
 
 let thirdNavLink = document.createElement("a");
