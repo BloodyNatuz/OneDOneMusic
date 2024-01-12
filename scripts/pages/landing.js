@@ -19,6 +19,6 @@ main.appendChild(description);
 // Création et importation du bouton
 let homeBtn = document.createElement("a");
 homeBtn.className = "primary-btn";
-homeBtn.href = "#";
+homeBtn.href = "/music/music.html";
 homeBtn.textContent = "Découvrir →";
 main.appendChild(homeBtn);
