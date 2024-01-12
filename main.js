@@ -4,4 +4,5 @@ import "./scripts/layout/navbar";
 import "./scripts/pages/landing";
 import "./scripts/layout/footer";
 
-document.querySelectorAll('link[rel="modulepreload"]').removeAttribute("rel");
+let head = document.querySelector("head");
+head.querySelectorAll('link[rel="modulepreload"]').removeAttribute("rel");
