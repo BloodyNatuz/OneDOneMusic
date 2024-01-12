@@ -3,3 +3,6 @@ import "./scripts/components/bg-anim";
 import "./scripts/layout/navbar";
 import "./scripts/pages/landing";
 import "./scripts/layout/footer";
+
+let antipreload = document.querySelector('link[rel*="modulepreload"]');
+antipreload.rel = "";
