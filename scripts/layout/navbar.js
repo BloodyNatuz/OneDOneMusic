@@ -11,7 +11,7 @@ firstNavLink.className = "nav-link";
 firstNavLink.href = "/";
 let imgLogo = document.createElement("img");
 imgLogo.src =
-  "https://one-day-one-music.nathuz.fr/assets/odom-white-wpGiodzV.svg";
+  "/public/img/odom-white.svg";
 
 let secondNavLink = document.createElement("a");
 secondNavLink.className = "nav-link";
