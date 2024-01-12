@@ -1,6 +1,7 @@
 // vite.config.js
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
+import path from 'path';
 
 export default defineConfig({
   build: {
@@ -12,4 +13,10 @@ export default defineConfig({
       },
     },
   },
+  resolve: {
+    alias: [{
+        find: '../font',
+        replacement: path.resolve(__dirname, 'public/fonts'),
+    }],
+  }
 })
