@@ -1,3 +1,5 @@
+console.log("Contenu de page vient de charger");
+
 // Sélection de body
 let body = document.querySelector("body");
 
