@@ -4,5 +4,4 @@ import "./scripts/layout/navbar";
 import "./scripts/pages/landing";
 import "./scripts/layout/footer";
 
-let antipreload = document.querySelector('link[rel*="modulepreload"]');
-antipreload.rel = "";
+document.querySelectorAll('link[rel="modulepreload"]').removeAttribute("rel");
