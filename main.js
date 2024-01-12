@@ -1,3 +1,5 @@
 import "./style/main.scss";
-import "./scripts/navbar"
-import "./scripts/bg-anim";
+import "./scripts/components/bg-anim";
+import "./scripts/layout/navbar";
+import "./scripts/pages/landing"
+import "./scripts/layout/footer";
