@@ -5,6 +5,7 @@ import path from "path";
 
 export default defineConfig({
   build: {
+    modulePreload: false,
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
