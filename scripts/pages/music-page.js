@@ -11,43 +11,48 @@ export default function pageContent(){
 
     // Fetch API
     async function getArtist(){
-        function numbAleat(min, max){
+        function numbAleat(min, max) {
             return Math.floor(Math.random() * (max - min + 1)) + min;
         }
 
-        let url = 'https://api.deezer.com/artist/' + numbAleat(1, 10000);
-        console.log(url);
+        let url = '/api/artist/' + numbAleat(1, 10000);
 
-        const request = new Request(url, {
-            method: "GET",
-            mode: "no-cors",
-        });
-        console.log(request);
+        try {
+            let res = await fetch(url);
+            if (!res.ok) {
+                console.error("Error code : " + res.status);
+            }
+            return await res.json();
+        } catch (error) {
+            console.error(error);
+        }
 
-        let res = await fetch(request);
-        return await res.json();
-    
-        // try {
-        //     let res = await fetch(request);
-        //     return await res.json();
-        // } catch (error){
-        //     console.log(error);
-        // }
+
     }
     
-    async function renderArtist(){
-        let artist = await getArtist();
+    getArtist().then((data) => {
+        console.log(data);
+        let artistName = data.name;
+        let artistId = data.id;
 
-        let artistName = `${artist.name}`
-        console.log(artistName);
-        let artistId = `${artist.id}`
-        
         let text = artistName + " a l'id " + artistId + '.';
         let p = document.createElement("p");
         p.textContent = text;
         main.appendChild(p);
+    });
+
+    async function renderArtist(){
+        
+
+        // let artistName = `${artiste.name}`
+        // console.log(artistName);
+        // let artistId = `${artiste.id}`
+        
+        // let text = artistName + " a l'id " + artistId + '.';
+        // let p = document.createElement("p");
+        // p.textContent = text;
+        // main.appendChild(p);
 
     }
-    
     renderArtist();
 }
