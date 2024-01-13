@@ -8,50 +8,82 @@ export default function pageContent(){
 
     // Création et importation de la card
     let card = document.createElement("div");
+        // Fetch API
+        for (let numb = 1; numb < 11; numb++) {
 
-    // Fetch API
-    async function getArtist(){
-        function numbAleat(min, max) {
-            return Math.floor(Math.random() * (max - min + 1)) + min;
-        }
+            async function getArtist(){
+            let url = '/api/artist/' + numb;
 
-        let url = '/api/artist/' + numbAleat(1, 10000);
-
-        try {
-            let res = await fetch(url);
-            if (!res.ok) {
-                console.error("Error code : " + res.status);
+            try {
+                let res = await fetch(url);
+                if (!res.ok) {
+                    console.error("Error code : " + res.status);
+                }
+                return await res.json();
+            } catch (error) {
+                console.error(error);
             }
-            return await res.json();
-        } catch (error) {
-            console.error(error);
+            }
+            getArtist().then((data) => {
+                let artistName = data.name;
+                let artistId = data.id;
+                let artistNbAlbum = data.nb_album;
+                let trackUrl = '/api/artist/' + artistId + "/top?limit=10"
+                
+                // Fetch the tracklist
+                async function getTracks(){
+                    try {
+                        let res = await fetch(trackUrl);
+                        if (!res.ok) {
+                            console.error("Error code : " + res.status);
+                        }
+                        return await res.json();
+                    } catch (error) {
+                        console.error(error);
+                    }
+                }
+
+                getTracks().then((data) =>{
+                    let theDatas = data.data;
+                    theDatas.forEach(theData => {
+                        let trackTitle = theData.title;
+                        let trackId = theData.id;
+                        let trackDuration = theData.duration;
+
+                        var textForTracks = document.createElement("p");
+                        textForTracks.innerText = `
+                        --------"tracks": [
+                        ----------------{
+                        --------------------"id": "${trackId}",
+                        --------------------"titre": "${trackTitle}",
+                        --------------------"duree": "${trackDuration}"
+                        ----------------}
+                        --------],
+                        `
+                        main.appendChild(textForTracks);
+                    });
+                })
+
+                
+                let textData = document.createElement("p");
+                let dataDebutStructure = `
+                ----{
+                --------"name": "${artistName}",
+                --------"id": "${artistId}",
+                --------"nb_album": "${artistNbAlbum}",
+                `;
+                let dataFinStructure = `
+                ----},
+                `
+
+
+                let truc = dataDebutStructure + dataFinStructure
+                textData.innerText = truc;
+
+                main.appendChild(textData);
+
+            });
+
+            console.log(numb);
         }
-
-    }
-    
-    getArtist().then((data) => {
-        console.log(data);
-        let artistName = data.name;
-        let artistId = data.id;
-
-        let text = artistName + " a l'id " + artistId + '.';
-        let p = document.createElement("p");
-        p.textContent = text;
-        main.appendChild(p);
-    });
-
-    async function renderArtist(){
-        
-
-        // let artistName = `${artiste.name}`
-        // console.log(artistName);
-        // let artistId = `${artiste.id}`
-        
-        // let text = artistName + " a l'id " + artistId + '.';
-        // let p = document.createElement("p");
-        // p.textContent = text;
-        // main.appendChild(p);
-
-    }
-    renderArtist();
 }

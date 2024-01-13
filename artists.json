@@ -1,0 +1,581 @@
+[
+    {
+        "name": "Snoop Dogg",
+        "id": "3",
+        "nb_album": "160",
+        "tracks": [
+                {
+                    "id": "14954267",
+                    "titre": "Young, Wild & Free (feat. Bruno Mars)",
+                    "duree": "207"
+                },
+                {
+                    "id": "2132919007",
+                    "titre": "Nuthin' But A 'G' Thang",
+                    "duree": "238"
+                },
+                {
+                    "id": "439324612",
+                    "titre": "That's My N****",
+                    "duree": "199"
+                },
+                {
+                    "id": "139103331",
+                    "titre": "Beautiful",
+                    "duree": "298"
+                },
+                {
+                    "id": "1556832932",
+                    "titre": "Who Am I (What's My Name?)",
+                    "duree": "248"
+                },
+                {
+                    "id": "2498752",
+                    "titre": "Signs",
+                    "duree": "236"
+                },
+                {
+                    "id": "429125352",
+                    "titre": "Drop It Like It's Hot",
+                    "duree": "266"
+                },
+                {
+                    "id": "1573566",
+                    "titre": "I Wanna Fuck You",
+                    "duree": "178"
+                },
+                {
+                    "id": "3120678",
+                    "titre": "Bitch Please",
+                    "duree": "234"
+                },
+                {
+                    "id": "1116032962",
+                    "titre": "Riders On The Storm (Fredwreck Remix)",
+                    "duree": "382"
+                }
+        ]
+    },
+
+    {
+        "name": "Manu Chao",
+        "id": "6",
+        "nb_album": "43",
+        "tracks": [
+                {
+                    "id": "71608366",
+                    "titre": "Me Gustas Tu",
+                    "duree": "240"
+                },
+                {
+                    "id": "71590745",
+                    "titre": "Clandestino",
+                    "duree": "149"
+                },
+                {
+                    "id": "2442477485",
+                    "titre": "Bongo Bong (Francis Mercier Remix)",
+                    "duree": "184"
+                },
+                {
+                    "id": "71590748",
+                    "titre": "Je ne t'aime plus",
+                    "duree": "122"
+                },
+                {
+                    "id": "71590746",
+                    "titre": "Desaparecido",
+                    "duree": "227"
+                },
+                {
+                    "id": "2140267377",
+                    "titre": "Me Gustas Tu (Sped Up Version)",
+                    "duree": "221"
+                },
+                {
+                    "id": "2442477485",
+                    "titre": "Bongo Bong (Francis Mercier Remix)",
+                    "duree": "184"
+                },
+                {
+                    "id": "71590749",
+                    "titre": "Mentira",
+                    "duree": "277"
+                },
+                {
+                    "id": "71590758",
+                    "titre": "Minha galera",
+                    "duree": "141"
+                },
+                {
+                    "id": "1906159467",
+                    "titre": "Me Duele",
+                    "duree": "196"
+                }
+        ]
+    },
+
+    {
+        "name": "The Beatles",
+        "id": "1",
+        "nb_album": "37",
+        "tracks": [
+                {
+                    "id": "116348656",
+                    "titre": "Let It Be (Remastered 2009)",
+                    "duree": "243"
+                },
+                {
+                    "id": "2522288451",
+                    "titre": "Now And Then",
+                    "duree": "248"
+                },
+                {
+                    "id": "116348632",
+                    "titre": "Hey Jude (Remastered 2015)",
+                    "duree": "429"
+                },
+                {
+                    "id": "116348464",
+                    "titre": "Here Comes The Sun (Remastered 2009)",
+                    "duree": "184"
+                },
+                {
+                    "id": "116348340",
+                    "titre": "Twist And Shout (Remastered 2009)",
+                    "duree": "153"
+                },
+                {
+                    "id": "116348212",
+                    "titre": "Blackbird (Remastered 2009)",
+                    "duree": "138"
+                },
+                {
+                    "id": "116348452",
+                    "titre": "Come Together (Remastered 2009)",
+                    "duree": "258"
+                },
+                {
+                    "id": "116348610",
+                    "titre": "Help! (Remastered 2015)",
+                    "duree": "137"
+                },
+                {
+                    "id": "116348614",
+                    "titre": "Day Tripper (Remastered 2015)",
+                    "duree": "167"
+                },
+                {
+                    "id": "116348612",
+                    "titre": "Yesterday (Remastered 2015)",
+                    "duree": "123"
+                }
+        ]
+    },
+
+    {
+        "name": "The Clash",
+        "id": "2",
+        "nb_album": "14",
+        "tracks": [
+                {
+                    "id": "69962764",
+                    "titre": "Should I Stay or Should I Go (Remastered)",
+                    "duree": "189"
+                },
+                {
+                    "id": "69924599",
+                    "titre": "London Calling (Remastered)",
+                    "duree": "200"
+                },
+                {
+                    "id": "69962765",
+                    "titre": "Rock the Casbah (Remastered)",
+                    "duree": "222"
+                },
+                {
+                    "id": "69924718",
+                    "titre": "The Magnificent Seven (Remastered)",
+                    "duree": "333"
+                },
+                {
+                    "id": "69924608",
+                    "titre": "The Guns of Brixton (Remastered)",
+                    "duree": "192"
+                },
+                {
+                    "id": "69505564",
+                    "titre": "I Fought the Law",
+                    "duree": "163"
+                },
+                {
+                    "id": "69924617",
+                    "titre": "Train in Vain (Stand by Me) (Remastered)",
+                    "duree": "194"
+                },
+                {
+                    "id": "69924601",
+                    "titre": "Jimmy Jazz (Remastered)",
+                    "duree": "234"
+                },
+                {
+                    "id": "69924606",
+                    "titre": "Lost in the Supermarket (Remastered)",
+                    "duree": "226"
+                },
+                {
+                    "id": "69924603",
+                    "titre": "Rudie Can't Fail (Remastered)",
+                    "duree": "208"
+                }
+        ]
+    },
+
+    {
+        "name": "Amadou & Mariam",
+        "id": "5",
+        "nb_album": "41",
+        "tracks": [
+                {
+                    "id": "2147487627",
+                    "titre": "L'amour",
+                    "duree": "167"
+                },
+                {
+                    "id": "445894132",
+                    "titre": "Sabali",
+                    "duree": "196"
+                },
+                {
+                    "id": "2080015747",
+                    "titre": "Sete",
+                    "duree": "209"
+                },
+                {
+                    "id": "142704140",
+                    "titre": "L'Âme Au Mali",
+                    "duree": "188"
+                },
+                {
+                    "id": "2327604",
+                    "titre": "Je pense à toi",
+                    "duree": "316"
+                },
+                {
+                    "id": "515871012",
+                    "titre": "Senegal Fast Food",
+                    "duree": "259"
+                },
+                {
+                    "id": "2537476311",
+                    "titre": "L'amour (Version acoustique)",
+                    "duree": "203"
+                },
+                {
+                    "id": "8000654",
+                    "titre": "Sabali (feat. Theophilus London) (Grey X Sage Remix)",
+                    "duree": "173"
+                },
+                {
+                    "id": "515871052",
+                    "titre": "Beaux Dimanches",
+                    "duree": "211"
+                },
+                {
+                    "id": "8000657",
+                    "titre": "Sabali (Vitalic Remix Radio Edit)",
+                    "duree": "195"
+                }
+        ]
+    },
+
+    {
+        "name": "America",
+        "id": "4",
+        "nb_album": "31",
+        "tracks": [
+                {
+                    "id": "727720",
+                    "titre": "A Horse with No Name",
+                    "duree": "252"
+                },
+                {
+                    "id": "732851",
+                    "titre": "Lonely People",
+                    "duree": "150"
+                },
+                {
+                    "id": "727733",
+                    "titre": "Ventura Highway",
+                    "duree": "211"
+                },
+                {
+                    "id": "727754",
+                    "titre": "Tin Man",
+                    "duree": "209"
+                },
+                {
+                    "id": "4623204",
+                    "titre": "Special Girl",
+                    "duree": "227"
+                },
+                {
+                    "id": "727762",
+                    "titre": "Sister Golden Hair",
+                    "duree": "197"
+                },
+                {
+                    "id": "727723",
+                    "titre": "I Need You",
+                    "duree": "183"
+                },
+                {
+                    "id": "15634247",
+                    "titre": "Horse With No Name",
+                    "duree": "217"
+                },
+                {
+                    "id": "727728",
+                    "titre": "Sandman",
+                    "duree": "248"
+                },
+                {
+                    "id": "727738",
+                    "titre": "Don't Cross the River",
+                    "duree": "149"
+                }
+        ]
+    },
+
+    {
+        "name": "Jamiroquai",
+        "id": "7",
+        "nb_album": "49",
+        "tracks": [
+                {
+                    "id": "1884719637",
+                    "titre": "Virtual Insanity (Remastered)",
+                    "duree": "229"                    
+                },
+                {
+                    "id": "1884719647",
+                    "titre": "Cosmic Girl (Remastered)",
+                    "duree": "227"
+                },
+                {
+                    "id": "747399472",
+                    "titre": "Virtual Insanity (Remastered)",
+                    "duree": "340"
+                },
+                {
+                    "id": "15215897",
+                    "titre": "Little L",
+                    "duree": "295"
+                },
+                {
+                    "id": "1884719657",
+                    "titre": "Alright (Remastered)",
+                    "duree": "222"
+                },
+                {
+                    "id": "15216162",
+                    "titre": "You Give Me Something",
+                    "duree": "199"
+                },
+                {
+                    "id": "1884719687",
+                    "titre": "Canned Heat (Remastered)",
+                    "duree": "228"
+                },
+                {
+                    "id": "64608069",
+                    "titre": "When You Gonna Learn?",
+                    "duree": "230"
+                },
+                {
+                    "id": "747399532",
+                    "titre": "Drifting Along (Remastered)",
+                    "duree": "245"
+                },
+                {
+                    "id": "747399482",
+                    "titre": "Cosmic Girl (Remastered)",
+                    "duree": "244"
+                }
+        ]
+    },
+
+    {
+        "name": "Faithless",
+        "id": "10",
+        "nb_album": "64",
+        "tracks": [
+                {
+                    "id": "7035328",
+                    "titre": "Insomnia (Radio Edit)",
+                    "duree": "213"               
+                },
+                {
+                    "id": "560269",
+                    "titre": "Insomnia (Monster Mix)",
+                    "duree": "522"
+                },
+                {
+                    "id": "1384283342",
+                    "titre": "Insomnia 2021 (Epic Edit)",
+                    "duree": "288"
+                },
+                {
+                    "id": "560281",
+                    "titre": "God Is a DJ",
+                    "duree": "208"
+                },
+                {
+                    "id": "1569897732",
+                    "titre": "God is A DJ",
+                    "duree": "155"
+                },
+                {
+                    "id": "15641322",
+                    "titre": "Insomnia",
+                    "duree": "526"
+                },
+                {
+                    "id": "2033758347",
+                    "titre": "The Crown Main Title (Faithless Remix)",
+                    "duree": "261"
+                },
+                {
+                    "id": "1384283352",
+                    "titre": "Insomnia 2021 (Epic Mix)",
+                    "duree": "465"
+                },
+                {
+                    "id": "103867554",
+                    "titre": "Insomnia 2.0 (Avicii Remix) [Radio Edit]",
+                    "duree": "184"
+                },
+                {
+                    "id": "560272",
+                    "titre": "We Come 1 (Radio Edit)",
+                    "duree": "224"
+                }
+        ]
+    },
+
+    {
+        "name": "Outkast",
+        "id": "9",
+        "nb_album": "31",
+        "tracks": [
+                {
+                    "id": "628266",
+                    "titre": "Hey Ya!",
+                    "duree": "235"            
+                },
+                {
+                    "id": "963042",
+                    "titre": "Ms. Jackson",
+                    "duree": "270"
+                },
+                {
+                    "id": "963085",
+                    "titre": "Ms. Jackson",
+                    "duree": "239"
+                },
+                {
+                    "id": "963074",
+                    "titre": "So Fresh, So Clean",
+                    "duree": "242"
+                },
+                {
+                    "id": "628267",
+                    "titre": "Roses",
+                    "duree": "369"
+                },
+                {
+                    "id": "73351276",
+                    "titre": "Miss Jackson",
+                    "duree": "343"
+                },
+                {
+                    "id": "628247",
+                    "titre": "The Way You Move (feat. Sleepy Brown)",
+                    "duree": "234"
+                },
+                {
+                    "id": "1047823",
+                    "titre": "ATLiens",
+                    "duree": "230"
+                },
+                {
+                    "id": "963052",
+                    "titre": "B.O.B. (Bombs Over Baghdad)",
+                    "duree": "304"
+                },
+                {
+                    "id": "962896",
+                    "titre": "SpottieOttieDopaliscious",
+                    "duree": "426"
+                }
+        ]
+    },
+
+    {
+        "name": "Placebo",
+        "id": "8",
+        "nb_album": "27",
+        "tracks": [
+                {
+                    "id": "133577996",
+                    "titre": "The Bitter End",
+                    "duree": "191"         
+                },
+                {
+                    "id": "1895560297",
+                    "titre": "Every You Every Me",
+                    "duree": "213"
+                },
+                {
+                    "id": "133578060",
+                    "titre": "Protège Moi",
+                    "duree": "195"
+                },
+                {
+                    "id": "1490168942",
+                    "titre": "Beautiful James",
+                    "duree": "248"
+                },
+                {
+                    "id": "1895560227",
+                    "titre": "Pure Morning",
+                    "duree": "254"
+                },
+                {
+                    "id": "3642076",
+                    "titre": "Running Up That Hill",
+                    "duree": "294"
+                },
+                {
+                    "id": "133577988",
+                    "titre": "Too Many Friends",
+                    "duree": "214"
+                },
+                {
+                    "id": "133578058",
+                    "titre": "This Picture",
+                    "duree": "213"
+                },
+                {
+                    "id": "1895402227",
+                    "titre": "Song to Say Goodbye",
+                    "duree": "216"
+                },
+                {
+                    "id": "133578084",
+                    "titre": "Special K",
+                    "duree": "229"
+                }
+        ]
+    }
+]

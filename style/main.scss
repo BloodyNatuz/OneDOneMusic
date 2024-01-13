@@ -11,19 +11,6 @@
 body {
   margin: 0;
   padding: 0;
-  overflow-y: hidden;
-}
-
-// Animation de fond
-#bg-wrap {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-}
-#bg-wrap svg {
-  height: 100vh;
-  width: 100%;
 }
 
 main {
@@ -31,7 +18,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: max-content;
+  text-align: left !important;
 }
 
 h1 {
