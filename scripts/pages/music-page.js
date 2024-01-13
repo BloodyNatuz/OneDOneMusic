@@ -14,32 +14,39 @@ export default function pageContent(){
         function numbAleat(min, max){
             return Math.floor(Math.random() * (max - min + 1)) + min;
         }
-    
+
         let url = 'https://api.deezer.com/artist/' + numbAleat(1, 10000);
         console.log(url);
+
+        const request = new Request(url, {
+            method: "GET",
+            mode: "no-cors",
+        });
+        console.log(request);
+
+        let res = await fetch(request);
+        return await res.json();
     
-        try {
-            let res = await fetch(url);
-            return await res.json();
-        } catch (error){
-            console.log(error);
-        }
+        // try {
+        //     let res = await fetch(request);
+        //     return await res.json();
+        // } catch (error){
+        //     console.log(error);
+        // }
     }
     
     async function renderArtist(){
-        let artists = await getArtist();
-    
-        artists.forEach(artist => {
-            let artistName = `${artist.name}`
-            let artistId = `${artist.id}`
-            
-            let text = artistName + " a l'id " + artistId + '.';
-            console.log(text);
-            let p = document.createElement("p");
-            p.textContent = text;
-            main.appendChild(p);
-    
-        });
+        let artist = await getArtist();
+
+        let artistName = `${artist.name}`
+        console.log(artistName);
+        let artistId = `${artist.id}`
+        
+        let text = artistName + " a l'id " + artistId + '.';
+        let p = document.createElement("p");
+        p.textContent = text;
+        main.appendChild(p);
+
     }
     
     renderArtist();
