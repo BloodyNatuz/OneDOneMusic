@@ -1,3 +1,5 @@
+import imgLogoWhite from '/img/odom-white.svg';
+
 export default function navbar(){
   // Sélection du body
   let body = document.querySelector("body");
@@ -11,7 +13,7 @@ export default function navbar(){
   firstNavLink.className = "nav-link";
   firstNavLink.href = "/";
   let imgLogo = document.createElement("img");
-  imgLogo.src ="../img/odom-white.svg";
+  imgLogo.src = imgLogoWhite;
 
   let secondNavLink = document.createElement("a");
   secondNavLink.className = "nav-link";
