@@ -11,7 +11,7 @@ export default function navbar(){
   firstNavLink.className = "nav-link";
   firstNavLink.href = "/";
   let imgLogo = document.createElement("img");
-  imgLogo.src ="";
+  imgLogo.src ="../img/odom-white.svg";
 
   let secondNavLink = document.createElement("a");
   secondNavLink.className = "nav-link";
