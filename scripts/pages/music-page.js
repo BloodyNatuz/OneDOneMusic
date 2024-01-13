@@ -27,7 +27,6 @@ export default function pageContent(){
             console.error(error);
         }
 
-
     }
     
     getArtist().then((data) => {
